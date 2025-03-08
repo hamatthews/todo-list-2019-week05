@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Todo List</h1>
+		</header>
+		<div class="main-sidebar-wrapper">
+			<section class="sidebar">
+				<div id="task-1" class="task">
+					<h2 class="task-title"></h2>
+					<span class="task-due-date"></span>
+					<span class="task-due-time"></span>
+					<span class="task-description"></span>
+					<button class="delete-button">x</button>
+				</div>
+				<div id="task-2" class="task">
+					<h2 class="task-title"></h2>
+					<span class="task-due-date"></span>
+					<span class="task-due-time"></span>
+					<span class="task-description"></span>
+					<button class="delete-button">x</button>
+				</div>
+				<div id="task-3" class="task">
+					<h2 class="task-title"></h2>
+					<span class="task-due-date"></span>
+					<span class="task-due-time"></span>
+					<span class="task-description"></span>
+					<button class="delete-button">x</button>
+				</div>
+			</section>
+			<main>
+				<div class="task-maker">
+					<input id="title-input" type="text" placeholder="Title" />
+					<input id="due-date-input" type="date" />
+					<input id="due-time-input" type="time" />
+					<textarea id="description-input" placeholder="Description"></textarea>
+					<button id="create-task-button">Create Task</button>
+				</div>
+			</main>	
+		</div>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
